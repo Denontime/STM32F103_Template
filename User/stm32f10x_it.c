@@ -161,9 +161,10 @@ void KEY1_IRQHandler(void)
   //确保是否产生了EXTI Line中断
 	if(EXTI_GetITStatus(KEY1_INT_EXTI_LINE) != RESET) 
 	{
-		// LED1 取反		
+				
 		LED_Prev_State();
-//        LED_Set_Color(LED_BLUE);
+        led_delay_ms = 1000;
+        
     //清除中断标志位
 		EXTI_ClearITPendingBit(KEY1_INT_EXTI_LINE);     
 	}  
@@ -174,9 +175,10 @@ void KEY2_IRQHandler(void)
   //确保是否产生了EXTI Line中断
 	if(EXTI_GetITStatus(KEY2_INT_EXTI_LINE) != RESET) 
 	{
-		// LED2 取反		
-//        LED_Set_Color(LED_GREEN);
+		
 		LED_Next_State();
+        led_delay_ms = 1000;
+        
     //清除中断标志位
 		EXTI_ClearITPendingBit(KEY2_INT_EXTI_LINE);     
 	}  
