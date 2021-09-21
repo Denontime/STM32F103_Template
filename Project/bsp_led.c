@@ -1,4 +1,5 @@
 #include "bsp_led.h"
+#include "bsp_beep.h"
 
 void LED_GPIO_Confg(void)
 {
@@ -25,6 +26,9 @@ void LED_GPIO_Confg(void)
 void LED_Set_Color(int ledMode)
 {
     assert_param(IS_LED_ALL_PERIPH(ledMode));
+    
+    beep_on();
+    
     switch(ledMode)
     {
         case 1:

@@ -582,6 +582,16 @@
               <FileType>5</FileType>
               <FilePath>.\bsp_usart.h</FilePath>
             </File>
+            <File>
+              <FileName>bsp_beep.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\bsp_beep.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_beep.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\bsp_beep.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

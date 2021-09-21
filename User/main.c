@@ -3,6 +3,7 @@
 #include "bsp_key.h"
 #include "bsp_exti.h"
 #include "bsp_usart.h"
+#include "bsp_beep.h"
 
 int led_state = 0;
 int led_delay_ms = 1000;
@@ -20,6 +21,7 @@ int main(void)
     char recv_ch;
 	
 	LED_GPIO_Confg();
+    BEEP_GPIO_Confg();
 //	KEY_GPIO_Confg();
     EXTI_Key_Config();
     SysTick_Init();
