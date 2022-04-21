@@ -1,0 +1,168 @@
+;#<FEEDBACK># ARM Linker, 5060061: Last Updated: Fri Jul 26 08:53:06 2019
+;VERSION 0.2
+;FILE adc.o
+ADC1_GPIO_Config <= USED 0
+ADC1_Init <= USED 0
+ADC1_Mode_Config <= USED 0
+;FILE can.o
+;FILE core_cm3.o
+__REV16 <= USED 0
+__REVSH <= USED 0
+__get_MSP <= USED 0
+__get_PSP <= USED 0
+__set_MSP <= USED 0
+__set_PSP <= USED 0
+;FILE device_check.o
+;FILE key.o
+Delay <= USED 0
+Key_GPIO_Config <= USED 0
+Key_Scan <= USED 0
+;FILE led.o
+LED_GPIO_Config <= USED 0
+;FILE main.o
+;FILE misc.o
+NVIC_SetVectorTable <= USED 0
+NVIC_SystemLPConfig <= USED 0
+SysTick_CLKSourceConfig <= USED 0
+;FILE startup_stm32f10x_hd.o
+;FILE stm32f10x_adc.o
+ADC_AnalogWatchdogCmd <= USED 0
+ADC_AnalogWatchdogSingleChannelConfig <= USED 0
+ADC_AnalogWatchdogThresholdsConfig <= USED 0
+ADC_AutoInjectedConvCmd <= USED 0
+ADC_ClearFlag <= USED 0
+ADC_ClearITPendingBit <= USED 0
+ADC_DeInit <= USED 0
+ADC_DiscModeChannelCountConfig <= USED 0
+ADC_DiscModeCmd <= USED 0
+ADC_ExternalTrigConvCmd <= USED 0
+ADC_ExternalTrigInjectedConvCmd <= USED 0
+ADC_ExternalTrigInjectedConvConfig <= USED 0
+ADC_GetConversionValue <= USED 0
+ADC_GetDualModeConversionValue <= USED 0
+ADC_GetFlagStatus <= USED 0
+ADC_GetITStatus <= USED 0
+ADC_GetInjectedConversionValue <= USED 0
+ADC_GetSoftwareStartConvStatus <= USED 0
+ADC_GetSoftwareStartInjectedConvCmdStatus <= USED 0
+ADC_ITConfig <= USED 0
+ADC_InjectedChannelConfig <= USED 0
+ADC_InjectedDiscModeCmd <= USED 0
+ADC_InjectedSequencerLengthConfig <= USED 0
+ADC_SetInjectedOffset <= USED 0
+ADC_SoftwareStartInjectedConvCmd <= USED 0
+ADC_StructInit <= USED 0
+ADC_TempSensorVrefintCmd <= USED 0
+;FILE stm32f10x_can.o
+CAN_CancelTransmit <= USED 0
+CAN_ClearFlag <= USED 0
+CAN_ClearITPendingBit <= USED 0
+CAN_DBGFreeze <= USED 0
+CAN_GetFlagStatus <= USED 0
+CAN_GetITStatus <= USED 0
+CAN_MessagePending <= USED 0
+CAN_Sleep <= USED 0
+CAN_Transmit <= USED 0
+CAN_TransmitStatus <= USED 0
+CAN_WakeUp <= USED 0
+;FILE stm32f10x_dma.o
+DMA_ClearFlag <= USED 0
+DMA_ClearITPendingBit <= USED 0
+DMA_GetCurrDataCounter <= USED 0
+DMA_GetFlagStatus <= USED 0
+DMA_GetITStatus <= USED 0
+DMA_ITConfig <= USED 0
+DMA_StructInit <= USED 0
+;FILE stm32f10x_flash.o
+FLASH_ClearFlag <= USED 0
+FLASH_EnableWriteProtection <= USED 0
+FLASH_EraseAllPages <= USED 0
+FLASH_EraseOptionBytes <= USED 0
+FLASH_ErasePage <= USED 0
+FLASH_GetFlagStatus <= USED 0
+FLASH_GetPrefetchBufferStatus <= USED 0
+FLASH_GetReadOutProtectionStatus <= USED 0
+FLASH_GetStatus <= USED 0
+FLASH_GetUserOptionByte <= USED 0
+FLASH_GetWriteProtectionOptionByte <= USED 0
+FLASH_HalfCycleAccessCmd <= USED 0
+FLASH_ITConfig <= USED 0
+FLASH_Lock <= USED 0
+FLASH_PrefetchBufferCmd <= USED 0
+FLASH_ProgramHalfWord <= USED 0
+FLASH_ProgramOptionByteData <= USED 0
+FLASH_ProgramWord <= USED 0
+FLASH_ReadOutProtection <= USED 0
+FLASH_SetLatency <= USED 0
+FLASH_Unlock <= USED 0
+FLASH_UserOptionByteConfig <= USED 0
+FLASH_WaitForLastOperation <= USED 0
+;FILE stm32f10x_gpio.o
+GPIO_AFIODeInit <= USED 0
+GPIO_DeInit <= USED 0
+GPIO_EXTILineConfig <= USED 0
+GPIO_EventOutputCmd <= USED 0
+GPIO_EventOutputConfig <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_ReadOutputDataBit <= USED 0
+GPIO_StructInit <= USED 0
+GPIO_Write <= USED 0
+GPIO_WriteBit <= USED 0
+;FILE stm32f10x_it.o
+;FILE stm32f10x_rcc.o
+RCC_ADCCLKConfig <= USED 0
+RCC_APB2PeriphResetCmd <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_BackupResetCmd <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_DeInit <= USED 0
+RCC_GetFlagStatus <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_GetSYSCLKSource <= USED 0
+RCC_HCLKConfig <= USED 0
+RCC_HSEConfig <= USED 0
+RCC_HSICmd <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSEConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_PCLK1Config <= USED 0
+RCC_PCLK2Config <= USED 0
+RCC_PLLCmd <= USED 0
+RCC_PLLConfig <= USED 0
+RCC_RTCCLKCmd <= USED 0
+RCC_RTCCLKConfig <= USED 0
+RCC_SYSCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+RCC_WaitForHSEStartUp <= USED 0
+;FILE stm32f10x_usart.o
+USART_ClearFlag <= USED 0
+USART_ClearITPendingBit <= USED 0
+USART_ClockInit <= USED 0
+USART_ClockStructInit <= USED 0
+USART_DMACmd <= USED 0
+USART_DeInit <= USED 0
+USART_GetFlagStatus <= USED 0
+USART_GetITStatus <= USED 0
+USART_HalfDuplexCmd <= USED 0
+USART_ITConfig <= USED 0
+USART_IrDACmd <= USED 0
+USART_IrDAConfig <= USED 0
+USART_LINBreakDetectLengthConfig <= USED 0
+USART_LINCmd <= USED 0
+USART_ReceiveData <= USED 0
+USART_ReceiverWakeUpCmd <= USED 0
+USART_SendBreak <= USED 0
+USART_SetAddress <= USED 0
+USART_SetGuardTime <= USED 0
+USART_SetPrescaler <= USED 0
+USART_SmartCardCmd <= USED 0
+USART_SmartCardNACKCmd <= USED 0
+USART_StructInit <= USED 0
+USART_WakeUpConfig <= USED 0
+;FILE system_stm32f10x.o
+;FILE usart1.o
